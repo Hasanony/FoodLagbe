@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodLagbe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/Lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="Theme.FoodLagbe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FoodLagbe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FoodLagbe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="BottomSheetTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/silde_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/silde_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/silde_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/silde_out_right</item>
+    </style>
+
+    <style name="ScreenBackground">
+        <item name="android:background">
+            @color/white
+        </item>
+    </style>
+
+    <style name="cardbackground">
+        <item name="android:background">
+            @color/white
+        </item>
+    </style>
+
+    <style name="textcolor">
+        <item name="android:textColor">
+            @color/white
+        </item>
+    </style>
+</resources>

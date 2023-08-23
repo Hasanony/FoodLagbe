@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    style="@style/ScreenBackground"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Dark Mode"
+               style="@style/textcolor"
+               android:textSize="18sp"
+               android:gravity="center"
+               android:padding="10dp"
+               android:textStyle="bold"/>
+           <Switch
+               android:id="@+id/switchMode"
+               android:layout_width="60dp"
+               android:layout_height="60dp"/>
+
+
+
+       </LinearLayout>
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           style="@style/cardbackground"
+           android:text="@string/button"/>
+   </LinearLayout>
+
+</FrameLayout>

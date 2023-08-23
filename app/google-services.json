@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578573684902",
+    "project_id": "foodlagbeee",
+    "storage_bucket": "foodlagbeee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578573684902:android:6407c04b617f5bba3ca467",
+        "android_client_info": {
+          "package_name": "com.example.foodlagbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578573684902-ej0g7a4djpad4014unt4vsavmh2qo9qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1cPjuQbtFlVQTv0hLGQ4yBUfoK2gmio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578573684902-ej0g7a4djpad4014unt4vsavmh2qo9qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

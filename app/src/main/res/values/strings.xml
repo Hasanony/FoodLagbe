@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FoodLagbe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="foodlagbe">FoodLagbe</string>
+    <string name="go_4_food">Go 4 Food</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="go_4_food1">Go 4 Food</string>
+    <string name="foodlagbee">FoodLagbe</string>
+    <string name="registerr">Register</string>
+    <string name="email_address">email address</string>
+    <string name="password">password</string>
+    <string name="loginn">Login</string>
+    <string name="register1">Register</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="register2">Register</string>
+    <string name="daily_meal">Daily Meal</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_chart">My Chart</string>
+    <string name="_10_00am_10_00pm">10:00am - 10:00pm</string>
+    <string name="product_name">Product Name</string>
+    <string name="_5_0">5.0</string>
+    <string name="name">Name</string>
+    <string name="settings">Settings</string>
+    <string name="hola">hola</string>
+    <string name="button">Button</string>
+    <string name="your_favourite_and_tasty_food_is_here" />
+    <string name="your_favourite_food_is_here">Your Favourite Food Is Here</string>
+    <string name="_10_weekend_speical_ndinner_recipes">10 Weekend Speical \nDinner Recipes</string>
+    <string name="view_more">View More</string>
+    <string name="makeorder">MAKE ORDER</string>
+</resources>
